@@ -1,0 +1,85 @@
+:root {
+    --casi-blanco: hsl(0, 0%, 98%);
+    --medio-gris: hsl(0, 0%, 41%);
+    --casi-negro: hsl(0, 0%, 8%);
+    --tamaño-letra-paragrafo: 18px;
+    }
+
+
+    @font-face {
+        font-family: 'epilogo';
+        src: url('fonts/Epilogue/Epilogue-VariableFont_wght.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+      }
+
+.ancho-offcanvas {
+    width: 60% !important;
+    
+}
+
+.ancho-offcanvas a {
+    color: var(--casi-negro) !important;
+}
+
+.ancho-offcanvas button {
+    color: var(--casi-negro) !important;
+}
+
+body {
+    font-family: 'epilogo' !important;
+    background-color: var(--casi-blanco);
+    height: 100vh;
+
+}
+
+h1 {
+    font-weight: 700 !important;
+}
+
+p {
+    font-weight: 500 !important;
+}
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; 
+
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 720px) {
+
+    section img {
+        width: 70px;
+        margin: 10px;
+    }
+    
+    
+}
+
+@media (min-width: 600px) {
+    .titulo-pantallas-grandes{
+        font-size: 50px;
+
+    }
+    .parrafo-pantallas-grandes {
+        font-size: 14px;
+        color: var(--medio-gris);
+    }
+}
+
+
+@media (min-width: 800px) {
+    .titulo-pantallas-grandes{
+        font-size: 80px;
+
+    }
+    .parrafo-pantallas-grandes {
+        font-size: 20px;
+        color: var(--medio-gris);
+    }
+}
